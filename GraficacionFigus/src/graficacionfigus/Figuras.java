@@ -32,7 +32,7 @@ public class Figuras extends JPanel{
     protected void paintComponent(Graphics g) {
         super.paintComponent(g);
         //Interfaz
-        g.drawRoundRect(10, 10, 950, 725, 35, 35);
+        g.drawRoundRect(10, 10, 950, 625, 35, 35);
         g.drawRect(30, 30, 250, 250);
         g.drawRect(350, 30, 250, 250);
         g.drawRect(670, 30, 250, 250);
